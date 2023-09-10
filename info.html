@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoundSky</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <style>
+        body {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 30px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 2px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 1.5rem;
+            background-color: #FFF;
+        }
+
+        td {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+
+        th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+            background-color: rgb(162, 162, 162);
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 30px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+      <h1>Dimitri Vegas, el mejor de los DJ de la eléctronica...</h1>
+      <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="info.html">Preferencias</a></li>
+            <li><a href="music.html">Musica</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+    <h2 style="margin: 15px;">Información de Dimitri Vegas</h2>
+    <hr/>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col style="background-color: rgb(128, 128, 128);">
+                <col>
+                <col>
+                <col>
+                <col>
+            </colgroup>
+            <th></th>
+            <th>Gustos</th>
+            <th>Preferencias</th>
+
+            <tr>
+                <td>Comida</td>
+                <td>Sancks</td>
+                <td>Takis</td>
+            </tr>
+            <tr>
+                <td>Musica</td>
+                <td>Electrónica</td>
+                <td>House</td>
+            </tr>
+            <tr>
+                <td>Bebidas</td>
+                <td>Jugos</td>
+                <td>Naranja</td>
+            </tr>
+            <tr>
+                <td>Actividades</td>
+                <td>Pulir Musica</td>
+                <td>Eléctronica</td>
+            </tr>
+        </table>
+    </div>
+    <footer class="footer">Derechos reservados &copy; 2023</footer>
+</body>
+</html>
